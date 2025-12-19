@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'IsidoraSansAlt-SemiBold';
+    src: local('IsidoraSansAlt SemiBold'), local('IsidoraSansAlt-SemiBold'), url('./fonts/IsidoraSansAlt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monda';
+    src: local('Monda'), url('./fonts/Monda.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('./fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), url('./fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: local('Montserrat Black'), local('Montserrat-Black'), url('./fonts/Montserrat-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+  @apply text-gray-800
+}
+
+@theme {
+        --font-menu: 'IsidoraSansAlt-SemiBold', sans-serif;
+        --font-heading: 'Monda', sans-serif;
+        --font-body: 'Montserrat-Regular', sans-serif;
+        --font-highlight-1: 'Montserrat-Bold', sans-serif;
+        --font-highlight-2: 'Montserrat-Black', sans-serif;
+
+        --color-primary: #DE7E24;
+        --color-secondary: #D7D7D7;
+        --color-default: #4D4D4D;
+        --color-block-bg: #ECECEC;
+}
